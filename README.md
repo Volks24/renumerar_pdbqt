@@ -1,13 +1,13 @@
-renumera los archivos pdbqt.dum para usar en bias_docking en autodock GPU
-Uso: python dummy_pdbqt.py <archivo_entrada>.pdbqt
+renumera los archivos pdbqt.dum para usar en bias_docking en autodock GPU\n
+Uso: python dummy_pdbqt.py <archivo_entrada>.pdbqt\n
 
-input
-REMARK  4 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK    1  A    between atoms: C3_4329  and  C10_4336 
-REMARK    2  A    between atoms: C10_4336  and  C1'_4337 
-REMARK    3  A    between atoms: C4'_4340  and  N4'_4348 
-REMARK    4  A    between atoms: N1'_4343  and  C11_4344 
+input\n
+REMARK  4 active torsions:\n
+REMARK  status: ('A' for Active; 'I' for Inactive)\n
+REMARK    1  A    between atoms: C3_4329  and  C10_4336 \n
+REMARK    2  A    between atoms: C10_4336  and  C1'_4337 \n
+REMARK    3  A    between atoms: C4'_4340  and  N4'_4348 \n
+REMARK    4  A    between atoms: N1'_4343  and  C11_4344 \n
 ROOT
 HETATM    1  C1' SU2 A1001       8.751   1.717  -8.855  1.00 54.37     0.000 A 
 HETATM    2  C2' SU2 A1001      10.093   1.464  -9.109  1.00 58.87     0.002 A 
